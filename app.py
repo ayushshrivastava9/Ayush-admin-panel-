@@ -89,7 +89,7 @@ HTML_CONTENT = """
 
     <div class="container">
         <header class="header">
-            <h1 class="title">💖 ROBIN WEB 💖</h1>
+            <h1 class="title">💖 AYUSH SHRIVASTAVA WEB 💖</h1>
             <h2 class="subtitle">(ALL OPTION)</h2>
         </header>
 
@@ -109,7 +109,7 @@ HTML_CONTENT = """
         </div>
 
         <footer class="footer">
-            © 2022 MADE BY :- LEGEND ROBIN
+            © 2022 MADE BY :- LEGEND AYUSH 
         </footer>
     </div>
 
@@ -140,3 +140,4 @@ if __name__ == '__main__':
     # Debug mode ON hai aur port 5000 par run hoga (0.0.0.0 for deployment)
 
     app.run(debug=True, host='0.0.0.0', port=5000)
+

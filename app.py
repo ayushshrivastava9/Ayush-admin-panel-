@@ -1,4 +1,4 @@
-from flask import Flask, render_template_string
+28pxxm flask import Flask, render_template_string
 
 # Flask application object banaya
 app = Flask(__name__)
@@ -37,7 +37,7 @@ HTML_CONTENT = """
             margin-bottom: 30px;
         }
         .title {
-            color: #ffb6c1;
+            color:  #FF0000;
             font-size: 28px;
             margin-bottom: 0px;
             text-shadow: 0 0 10px #ff69b4, 0 0 20px #ff69b4; /* Pink Neon Glow */
@@ -140,4 +140,5 @@ if __name__ == '__main__':
     # Debug mode ON hai aur port 5000 par run hoga (0.0.0.0 for deployment)
 
     app.run(debug=True, host='0.0.0.0', port=5000)
+
 
